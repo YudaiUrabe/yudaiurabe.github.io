@@ -29,7 +29,6 @@ As a sophomore, when I began researching the history of computing, I encountered
 What is the History of Computing
 ======
 Everything has a history.
-
 I will write something long here~~
 
 The image below is not accurate, but it is roughly correct. 
@@ -98,11 +97,10 @@ Recommended Books and Papers (NB: I have not followed the latest research and th
     
 * Cybernetics
   * Ronald R. Kline. *The Cybernetics Moment: Or Why We Call Our Age the Information Age.* (2015)
-  * Heims, Steve Joshua, *The Cybernetics Group* (1991)『サイバネティクス学者たちーアメリカ戦後科学の出発』.
-  * 
-  * Gerovitch, Slava, *From Newspeak to Cyberspeak*, (2004). 『ニュースピークからサイバースピークへ：ソ連における科学・政治・言語』
+  * Heims, Steve Joshua, *The Cybernetics Group* (1991)『サイバネティクス学者たちーアメリカ戦後科学の出発』
+  * Gerovitch, Slava, *From Newspeak to Cyberspeak*, (2004). 『ニュースピークからサイバースピークへ：ソ連における科学・政治・言語』．
       * This book deals with the reception of cybernetics in the Soviet Union. Although the history of cybernetics is complex and difficult to write about, the third chapter of this book provides a complete and clear summary of the history, noting the similarities between Kolmogorov and Wiener. I found the history of science in the Soviet Union fascinating after reading this book.
-  * Thomas Rid, *Rise of the Machines: A Cybernetic History* (2016)『サイバネティクス全史：人類は思考するマシンに何を夢見たのか』
+  * Thomas Rid, *Rise of the Machines: A Cybernetic History* (2016)『サイバネティクス全史：人類は思考するマシンに何を夢見たのか』．
   
 * History of Computer
   * Goldstine, Herman H. (1980). *The Computer from Pascal to von Neumann* 『計算機の歴史：パスカルからノイマンまで』（2016年に復刊）
@@ -110,8 +108,7 @@ Recommended Books and Papers (NB: I have not followed the latest research and th
   * Haigh, Thomas, Mark Priestley, and Crispin Rope, *ENIAC in Action: Making and Remaking the Modern Computer*, (2016) 『ENIAC』
     
 * Military and Computing, History of Cryptography
-  * Edwards, Paul N., The Closed World: Computers and the Politics of Discourse in Cold War America, Cambridge, MA: MIT Press, 1996.『クローズドワールド』.
-  * 
+  * Edwards, Paul N., The Closed World: Computers and the Politics of Discourse in Cold War America, Cambridge, MA: MIT Press, 1996.『クローズドワールド』．
 
 * Social History
   * Gender History
@@ -145,13 +142,11 @@ Recommended Books and Papers (NB: I have not followed the latest research and th
   * Chris Bernhardt, *Turing's Vision: The Birth of Computer Science*
   * Andrew Hodges, *Alan Turing: The Enigma: The Book That Inspired the Film The Imitation Game* 『エニグマ アラン・チューリング伝 上・下』
   * B. Jack Copeland, *The Essential Turing: Seminal Writings in Computing, Logic, Philosophy, Artificial Intelligence, and Artificial Life plus The Secrets of Enigma* 『チューリング：情報時代のパイオニア』
-  * 
   * Ananyo Bhattacharya, *The Man from the Future: The Visionary Life of John von Neumann* 『未来から来た男：ジョン・フォン・ノイマン』
   * Norman MacRae, *John Von Neumann: The Scientific Genius Who Pioneered the Modern Computer, Game Theory, Nuclear Deterrence, and Much More*『フォン・ノイマンの生涯』（朝日選書，のちに，ちくま学芸文庫に）
   * Heims, Steve Joshua, John Von Neumann and Norbert Wierner: From Mathematics to the Technologies of Life and Death, The MIT Press, 1982.  『フォン・ノイマンとウィーナー　2人の天才の生涯』.
   * Conway, Flo, Jim Siegelman, Dark Hero of the Information Age: In Search of Norbert Wiener The Father of Cybernetics, Basic Books, 2006. 『情報時代の見えないヒーロー［ノーバート・ウィーナー伝］』.
   * Jimmy Soni & Rob Goodman, *A Mind at Play: How Claude Shannon Invented the Information Age* 『クロード・シャノン 情報時代を発明した男』
-  * 
   * William Aspray, *John von Neumann and the Origins of Modern Computing* 『ノイマンとコンピュータの起源』
   * Charles Petzold, *The Annotated Turing: A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine* 『チューリングを読む：コンピュータサイエンスの金字塔を楽しもう』
   * Tara Abraham, *Rebel Genius: Warren S. McCulloch's Transdisciplinary Life in Science*, 2016
@@ -232,12 +227,10 @@ In any field, it is important to know the researchers and what they do when begi
 Primary Source
 ======
 * Martin Davis, *Undecidability: Basic Papers on Problems Propositions Unsolvable Problems and Computable Functions*
-* 
 * Gottfried Wilhelm Leibniz, 
   * Machina arithmetica in qua non aditio tantum et subtractio sed et multiplicatio nullo, divisio vero paene nullo animi labore peragantur, 1685「加減乗除が楽にできる算術機械」
   * Mira numerorum omnium expressio per 1 et 0, repraesentans rerum originem ex Deo et Nihilo, seu Mysterium creationis, 1696「すべての数を1と0によって表す驚くべき表記法．これは事物が神と無から由来すること，すなわち創造の神秘，を表現している」
   * Brevis descriptio Machinae Arithmeticae, 1710「算術計算機についての概説」
-  * 
 * Konrad Zuse, *Der Computer - Mein Lebenswerk*
 
 Useful Links
@@ -249,7 +242,7 @@ Useful Links
   * [ALAN TURING maintained by Andrew Hodges](https://www.turing.org.uk/sitemap.html)
   * [E. W. Dijkstra Archive](https://www.cs.utexas.edu/users/EWD/welcome.html)
   * [Academician A. Ershov’s archive](http://ershov.iis.nsk.su/en/index)
-  *[Professor John McCarthy Father of AI](http://jmc.stanford.edu/index.html)
+  * [Professor John McCarthy Father of AI](http://jmc.stanford.edu/index.html)
   * [John McCarthy's Original Website](https://www-formal.stanford.edu/jmc/)
   * [Tony Hoare : Publications maintained by the University of Oxford](https://www.cs.ox.ac.uk/people/publications/date/Tony.Hoare.html)
   * [Online Historical Encyclopaedia of Programming Languages](http://hopl.info/)
