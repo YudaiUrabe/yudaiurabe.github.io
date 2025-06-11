@@ -85,7 +85,7 @@ A_{e_0} = (Q, \Sigma, \delta, [e_0], F)
 $$
 where
 $$
-\delta([e], a) = [\partial_a\ e_0], \quad
+\delta([e], a) = [\partial_w\ e_0], \quad
 F = \{[e] \mid [e] \in Q, \varepsilon \in L(e)\}
 $$
 
@@ -141,12 +141,10 @@ Example
 ======
 To construct a DFA from the regular expression $e = (0 + 1)^* 00 (0 + 1)^*$:
 
-Firstly, to determine the set of states for the DFA, compute all $[\partial_a e_0]$ using the equivalence $\approx$, where $a = \{0, 1\} $ and:
-
+Firstly, to determine the set of states for the DFA, compute all $[\partial_a e_0]$ using the equivalence $\approx$, where $$a = \{0, 1\} $$ and
 $$
 e_0 = \{ e, e_1, e_2, e_3 \}
 $$
-
 resulting in $2 \times 4$ patterns.
 
 Define:
