@@ -60,7 +60,7 @@ $$
 $$
 
 Example\\
-For $e = xyza(b + c)^*$ and $w = \text{"xyz"}$, we have: $\partial_{wa}\,e = (b + c)^*$.
+For $e = xyza(b + c)^{*}$ and $w = \texttt{"xyz"}$, we have: $\partial_{wa}\,e = (b + c)^{*}$.
 
 
 Language Described by $∂_w$ e
@@ -79,8 +79,7 @@ Constructing Automata Using Derivatives of Regular Expressions
     * Example
       * For instance, L((0+1)\*) = L((0\*1\*)\*) = {0, 1}\*, hence (0+1)\* ≡ (0\*1*\)\*.
   * Here, the set $Q = \{[\partial_w\,e_0] \mid w \in \Sigma^*\}$ becomes finite.  
-We can construct a DFA $A_{e_0}$ that accepts $L(e_0)$ by using these equivalence classes $[\partial_w\,e_0]$ as states.  
-  (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
+We can construct a DFA $A_{e_0}$ that accepts $L(e_0)$ by using these equivalence classes $[\partial_w\,e_0]$ as states. (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
 The DFA is defined as:
 $$
 A_{e_0} = (Q, \Sigma, \delta, [e_0], F)
