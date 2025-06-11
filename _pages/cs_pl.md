@@ -37,7 +37,7 @@ $∂_a$  ε = &#8709;\\
 $∂_a$  b = &#8709;\\
 $∂_a$ (e1 e2) = ($∂_a$ e1) e2 + &nu;(e1)$∂_a$ e2 (← This is remarkably different from the typical differentiation of functions.)\\
 $∂_a$ (e1 + e2) = $∂_a$ e1 + $∂_a$ e2\\
-$∂_a e^* = (∂_a e) e^*$\\
+$∂_a e^* = (∂_a e) e^*$
 
 Here, a,b ∈ Σ and a ≠ b
 
@@ -61,7 +61,7 @@ $$
 
 Example\\
 For e = xyza(b + c)\* and w = "xyz", we have:
-$∂_wa$ e = (b +c)\*
+$∂_{wa}$ e = (b +c)\*
 
 Language Described by $∂_w$ e
 ======
@@ -78,7 +78,8 @@ Constructing Automata Using Derivatives of Regular Expressions
     * We write e1 ≡ e2 if L(e1) = L(e2). The relation ≡ divides expressions e into equivalence classes denoted by [e].
     * Example
       * For instance, L((0+1)\*) = L((0\*1\*)\*) = {0, 1}\*, hence (0+1)\* ≡ (0\*1*\)\*.
-  * Here, the set \( Q = \{[\partial_w\ e_0] \mid w \in \Sigma^*\} \) becomes finite. We can construct a DFA \( A_{e_0} \) that accepts \( L(e_0) \) by using these equivalence classes \([∂_w\ e_0]\) as states.  
+  * Here, the set \( Q = \{[\partial_w\ e_0] \mid w \in \Sigma^*\} \) becomes finite.  
+  We can construct a DFA \( A_{e_0} \) that accepts \( L(e_0) \) by using these equivalence classes \([∂_w\ e_0]\) as states.  
   (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
 The DFA is defined as:
 $$
@@ -90,11 +91,11 @@ $$
 F = \{[e] \in Q \mid \varepsilon \in L(e)\}
 $$
 
-    * Weaker Equivalence Relation
-      * Weaker Equivalence Relation  
+  * Weaker Equivalence Relation
+    * Weaker Equivalence Relation  
   Using a weaker relation \( \approx \) defined below instead of \( \equiv \), we can ensure that the equivalence classes remain finite, allowing for the construction of a DFA.
 
-  The rules of \( \approx \) are:
+The rules of $\,\approx\,$ are:
 
   $$
   e_1 + e_2 \approx e_2 + e_1
