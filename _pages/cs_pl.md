@@ -78,16 +78,15 @@ Constructing Automata Using Derivatives of Regular Expressions
     * We write e1 ≡ e2 if L(e1) = L(e2). The relation ≡ divides expressions e into equivalence classes denoted by [e].
     * Example
       * For instance, L((0+1)\*) = L((0\*1\*)\*) = {0, 1}\*, hence (0+1)\* ≡ (0\*1*\)\*.
-  * Here, the set $Q = \{[\partial_w\,e_0] \mid w \in \Sigma^*\}$ becomes finite.  
-We can construct a DFA $A_{e_0}$ that accepts $L(e_0)$ by using these equivalence classes $[\partial_w\,e_0]$ as states. (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
+  * Here, the set $Q = \{[\partial_w\,e_0] \mid w \in \Sigma^*\} $ becomes finite. We can construct a DFA $A_{e_0}$ that accepts $L(e_0)$ by using these equivalence classes $[\partial_w\,e_0]$ as states. (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
 The DFA is defined as:
 $$
 A_{e_0} = (Q, \Sigma, \delta, [e_0], F)
 $$
 where
 $$
-\delta([e], a) = [\partial_a\ e], \quad
-F = \{[e] \in Q \mid \varepsilon \in L(e)\}
+\delta([e], a) = [\partial_a\ e_0], \quad
+F = \{[e] \mid [e] \in Q, \varepsilon \in L(e)\}
 $$
 
   * Weaker Equivalence Relation
@@ -142,7 +141,7 @@ Example
 ======
 To construct a DFA from the regular expression $e = (0 + 1)^* 00 (0 + 1)^*$:
 
-Firstly, compute all $\partial_a e_0$ using the equivalence $\approx$, where $a = \{0, 1\}$ and:
+Firstly, to determine the set of states for the DFA, compute all $[\partial_a e_0]$ using the equivalence $\approx$, where $a = \{0, 1\} $ and:
 
 $$
 e_0 = \{ e, e_1, e_2, e_3 \}
@@ -173,16 +172,11 @@ Since $\varepsilon \in L(e_2)$ and $\varepsilon \in L(e_3)$, define:
 $$
 F = \{ e_2, e_3 \}
 $$
-
-Then the DFA is:
+Thus, with $Q=\{e, e1, e2, e3\}$, we can construct the DFA:
 $$
 A_e = (Q, \{0, 1\}, \delta, e, F)
 $$
-where
-$$
-\delta([e], a) = [\partial_a e], \quad
-F = \{ [e] \in Q \mid \varepsilon \in L(e) \}
-$$
+using the above transitions. (States [e2] and [e3] are collapsed into a single state due to their language equivalence under =.
 
 
 Here is the transition diagram of the DFA.
