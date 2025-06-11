@@ -215,7 +215,7 @@ References
 - Janusz A. Brzozowski. 1964. [Derivatives of Regular Expressions](https://dl.acm.org/doi/10.1145/321239.321249). J. ACM 11, 4 (Oct. 1964), 481-494.
 - John E. Hopcroft, Rajeev Motwani, and Jeffrey D. Ullman. *Introduction to automata theory, languages, and computation*, 2nd edition, (March 2001).
 - Sakarovitch J. *Elements of Automata Theory*. Thomas R, trans. Cambridge University Press; 2009.
-- *Encyclopedia of Theoretical Computer Science*, 2022
+- *Encyclopedia of Theoretical Computer Science*, 2022.
 
 
 
