@@ -172,11 +172,11 @@ Since $\varepsilon \in L(e_2)$ and $\varepsilon \in L(e_3)$, define:
 $$
 F = \{ e_2, e_3 \}
 $$
-Thus, with $Q=\{e, e1, e2, e3\}$, we can construct the DFA:
+Thus, with $$Q=\{e, e1, e2, e3\}$$, we can construct the DFA:
 $$
 A_e = (Q, \{0, 1\}, \delta, e, F)
 $$
-using the above transitions. (States [e2] and [e3] are collapsed into a single state due to their language equivalence under =.
+using the above transitions. (States [e2] and [e3] are collapsed into a single state due to their language equivalence under $\equiv$.
 
 
 Here is the transition diagram of the DFA.
