@@ -23,7 +23,7 @@ Last Updated: March 23, 2024
 What I really like: Chatting, Reading, Writing, Watching Comedies, Hiking, Cooking, Karaoke, Playing Board Games (especially Othello), emoji&#129325; &#128526; &#128548;, Billiards, Fishing, etc.
 
 * Programming
-  * Python, OCaml,  Scala, Java, C, Isabelle/HOL
+  * Python, OCaml, Scala, Java, C, Isabelle/HOL, λ-Calculus
 * Service
   * ICFP 2023 Student Volunteer (September 2023)
   * FLOPS 2024 (May 2024) (planned)
