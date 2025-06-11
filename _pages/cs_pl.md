@@ -60,7 +60,10 @@ $$
 $$
 
 Example\\
-For $e = xyza(b + c)^{*}$ and $w = \texttt{"xyz"}$, we have: $\partial_{wa}\,e = (b + c)^{*}$.
+\[
+\text{For } e = xyza(b + c)^{*} \text{ and } w = \texttt{"xyz"},\ \text{we have: } \partial_{wa}\,e = (b + c)^{*}.
+\]
+
 
 
 Language Described by $∂_w$ e
