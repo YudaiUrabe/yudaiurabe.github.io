@@ -1,6 +1,6 @@
 ---
 
-title: "Computer Science (mainly Programming Languages)"
+title: "Articles on Programming Languages"
 permalink: /cs_pl/
 author_profile: true
 
@@ -37,19 +37,19 @@ $∂_a$  ε = &#8709;\\
 $∂_a$  b = &#8709;\\
 $∂_a$ (e1 e2) = ($∂_a$ e1) e2 + &nu;(e1)$∂_a$ e2 (← This is remarkably different from the typical differentiation of functions.)\\
 $∂_a$ (e1 + e2) = $∂_a$ e1 + $∂_a$ e2\\
-$∂_a$ e\* = ($∂_a$ e)e^* \\
+$∂_a e^* = (∂_a e) e^*$\\
 
 Here, a,b ∈ Σ and a ≠ b
 
 The auxiliary function for the given regular expression $\nu(e)$ is defined as follows:
 
-\[
+$$
 \nu(e) =
 \begin{cases}
 \varepsilon & \text{if } \varepsilon \in L(e) \\
 \emptyset & \text{otherwise}
 \end{cases}
-\]
+$$
 
 The derivative with respect to strings is extended as follows:\\
 $$
@@ -78,27 +78,17 @@ Constructing Automata Using Derivatives of Regular Expressions
     * We write e1 ≡ e2 if L(e1) = L(e2). The relation ≡ divides expressions e into equivalence classes denoted by [e].
     * Example
       * For instance, L((0+1)\*) = L((0\*1\*)\*) = {0, 1}\*, hence (0+1)\* ≡ (0\*1*\)\*.
-  * Here, the set 
-$$
-Q = \{[\partial_w\ e_0] \mid w \in \Sigma^*\}
-$$
-becomes finite.  
-We can construct a DFA \( A_{e_0} \) that accepts \( L(e_0) \) by using these equivalence classes \([∂_w\ e_0]\) as states.  
-(This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
-
+  * Here, the set \( Q = \{[\partial_w\ e_0] \mid w \in \Sigma^*\} \) becomes finite. We can construct a DFA \( A_{e_0} \) that accepts \( L(e_0) \) by using these equivalence classes \([∂_w\ e_0]\) as states.  
+  (This construction corresponds to reading character \( a \) from state \( e \) by differentiating \( e \) with \( a \).)
 The DFA is defined as:
-
 $$
 A_{e_0} = (Q, \Sigma, \delta, [e_0], F)
 $$
-
 where
-
 $$
 \delta([e], a) = [\partial_a\ e], \quad
 F = \{[e] \in Q \mid \varepsilon \in L(e)\}
 $$
-
 
     * Weaker Equivalence Relation
       * Weaker Equivalence Relation  
@@ -150,50 +140,49 @@ $$
 
 Example
 ======
-To construct a DFA from the regular expression \( e = (0 + 1)^* 00 (0 + 1)^* \):
+To construct a DFA from the regular expression $e = (0 + 1)^* 00 (0 + 1)^*$:
 
-Firstly, to determine the set of states for the DFA, compute all \( [\partial_a e_0] \) using the equivalence \( \approx \) mentioned above, where \( a = \{0, 1\} \) and
+Firstly, compute all $\partial_a e_0$ using the equivalence $\approx$, where $a = \{0, 1\}$ and:
 
-\[
+$$
 e_0 = \{ e, e_1, e_2, e_3 \}
-\]
+$$
 
-resulting in \( 2 \times 4 \) patterns.
+resulting in $2 \times 4$ patterns.
 
 Define:
-
-\[
+$$
 \begin{align*}
 e_1 &= e + 0(0 + 1)^* \\
 e_2 &= e_1 + (0 + 1)^* \\
 e_3 &= e + (0 + 1)^*
 \end{align*}
-\]
+$$
 
 For example:
-
-\[
+$$
 \begin{align*}
 \partial_0 e &\approx e + 0(0 + 1)^* = e_1 \\
 \partial_1 e &\approx e \\
 \partial_0 e_1 &\approx e + 0(0 + 1)^* + (0 + 1)^* = e_2 \\
 \partial_1 e_1 &\approx e
 \end{align*}
-\]
+$$
 
-Since \( \varepsilon \in L(e_2) \) and \( \varepsilon \in L(e_3) \), we define
-
-\[
+Since $\varepsilon \in L(e_2)$ and $\varepsilon \in L(e_3)$, define:
+$$
 F = \{ e_2, e_3 \}
-\]
+$$
 
-Thus, with \( Q = \{ e, e_1, e_2, e_3 \} \), we can construct the DFA
-
-\[
+Then the DFA is:
+$$
 A_e = (Q, \{0, 1\}, \delta, e, F)
-\]
-
-using the above transitions. (States \([e_2]\) and \([e_3]\) are collapsed into a single state due to their language equivalence under \( \equiv \).)
+$$
+where
+$$
+\delta([e], a) = [\partial_a e], \quad
+F = \{ [e] \in Q \mid \varepsilon \in L(e) \}
+$$
 
 
 Here is the transition diagram of the DFA.
