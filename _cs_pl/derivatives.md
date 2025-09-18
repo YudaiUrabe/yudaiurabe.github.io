@@ -1,7 +1,7 @@
 ---
-layout: single
 title: "Derivatives of Regular Expressions"
 collection: cs_pl
+type: "cs_pl"
 permalink: /cs_pl/derivatives/
 author_profile: true
 ---

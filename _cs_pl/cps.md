@@ -3,7 +3,7 @@
 title: "CPS translation (Plotkin,1975)"
 collection: cs_pl
 type: "cs_pl"
-permalink: /cs_pl/cps
+permalink: /cs_pl/cps/
 author_profile: true
 
 ---
