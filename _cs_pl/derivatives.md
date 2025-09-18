@@ -2,7 +2,7 @@
 title: "Derivatives of Regular Expressions"
 collection: cs_pl
 permalink: /cs_pl/derivatives/
-
+date: 2024-03-23
 ---
 
 

@@ -3,8 +3,7 @@
 title: "CPS translation (Plotkin,1975)"
 collection: cs_pl
 permalink: /cs_pl/cps/
-
-
+date: 2025-09-19
 ---
 
 
