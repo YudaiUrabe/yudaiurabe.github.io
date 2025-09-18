@@ -215,6 +215,14 @@ defaults:
       layout: single
       author_profile: true
       comments: true
+  # _cs_pl
+  - scope:
+      path: ""
+      type: cs_pl
+    values:
+      layout: single
+      author_profile: true
+      comments: true
   # _posts
   - scope:
       path: ""
