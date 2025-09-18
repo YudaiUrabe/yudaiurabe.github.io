@@ -26,15 +26,10 @@ Last Updated: March 23, 2024
 As a sophomore, when I began researching the history of computing, I encountered huge difficulty in finding which books or papers to read. This field has a limited number of researchers, making it challenging for beginners to obtain sufficient information without taking significant initiative or encountering good fortune. (In Japan, there are about five researchers in this field... I am grateful to my academic adviser for granting me a high level of autonomy and offering me appropriate guidance, despite being far from his expertise.) I decided to write an introductory article for beginners to help those who are struggling, like myself at the time. I will provide some comments for someone fluent in Japanese (such as the availability of Japanese translation). 
 
 
-What is the History of Computing
+Image of the History of Computing
 ======
-Everything has a history.
-I will write something long here~~
-
 The image below is not accurate, but it is roughly correct. 
 ![History of Computing](/images/hoc.png)
-
-Like historians in other disciplines who read Latin or Ancient Greek, Historians of Computing should also be familiar with programming languages such as ALGOL, LISP, and Prolog.
 
 
 
