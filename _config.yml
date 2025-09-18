@@ -183,7 +183,7 @@ collections:
     permalink: /:collection/:path/
   cs_pl:
     output: true
-    permalink: /cs_pl/:name/  
+    permalink: /:collection/:path/
   teaching:
     output: true
     permalink: /:collection/:path/
