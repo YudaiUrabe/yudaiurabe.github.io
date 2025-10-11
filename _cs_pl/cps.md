@@ -21,7 +21,7 @@ published: true
 [Slide](https://speakerdeck.com/yudaiurabe/call-by-name-call-by-value-and-the-l-calculus)
 ======
 
-
+This slide includes a proof of the simulation theorem.
 
 
 
