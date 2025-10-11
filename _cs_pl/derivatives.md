@@ -20,8 +20,7 @@ published: true
 
 Last Updated: March 23, 2024
 
-Derivatives of Regular Expression
-======
+
 Regular expressions can be converted to deterministic finite automata (DFA) using well-known methods such as Thompson's construction. However, this involves intermediate steps through non-deterministic finite automata (NFA), which can be cumbersome. Additionally, backtracking-based regular expression engines may exhibit exponential time complexity in the worst case, exposing them to vulnerabilities such as ReDoS (regular expression denial of service) attacks. Recently, there has been a growing interest in derivative-based regular expression matching, which does not use backtracking (e.g., [RE#: High Performance Derivative-Based Regex Matching with Intersection, Complement, and Restricted Lookarounds](https://dl.acm.org/doi/10.1145/3704837)). \\
 In this article, we explore the concept of the derivatives of regular expressions and how to construct equivalent automata using derivatives. For more detailed information, refer to Chapter 4.4 of *Elements of Automata Theory* by Jacques Sakarovitch. A basic understanding of regular expressions, finite automata, and group theory is assumed.
 
