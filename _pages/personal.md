@@ -20,7 +20,8 @@ author_profile: true
 {% include base_path %}
 Last Updated: March 23, 2024
 
-What I really like: Chatting, Reading, Writing, Watching Comedies, Hiking, Cooking, Karaoke, Playing Board Games (especially Othello), emoji&#129325; &#128526; &#128548;, Billiards, Fishing, etc.
+What I really like: Chatting, Reading, Writing, Watching Comedies, Fishing, Playing Board Games (especially Othello), emoji&#129325; &#128526; &#128548;, Billiards, etc.
+
 
 * Service
   * ICFP 2023 Student Volunteer (September 2023)
@@ -34,7 +35,7 @@ Miscellaneous
 * The Purpose of this Website
   * My background differs from that of typical computer science students, so I will introduce myself through this website (When I first encountered the terms 'monad' and 'type theory' during my junior year at university, I initially associated them with Leibniz and Russell&#128579; The former has little to do with Leibniz, while the latter was conceived by Russell). Although I also love alone time, as an ambivert, I really enjoy interacting with other people as well. I hope this site, which I created for the first time, will help me to interact with various people in graduate school.
     
-* What I believe is important
+* What I believe are important and am trying to cultivate during graduate studies
   * The various experiences of the last year have made me believe that while knowledge and skills are important, emotional and social intelligence may be even more crucial in conducting research. This includes respecting others, asking for help, maintaining intellectual independence, making a continuous effort, being self-motivated, having a positive attitude, and being adaptable to change. 
 
 * Quotes
