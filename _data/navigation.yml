@@ -9,8 +9,8 @@ main:
 #  - title: "Graduation Thesis"
 #    url: /gradthesis/
 
-  # - title: "Personal"
-  #   url: /personal/
+  - title: "Personal"
+    url: /personal/
 
 #  - title: "翻訳 (Translation)"
 #    url: /tr/
