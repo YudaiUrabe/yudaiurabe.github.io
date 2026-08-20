@@ -48,4 +48,3 @@ Miscellaneous
 
 
 * 日本語でのご連絡も歓迎です！
-* [昔の日本語ブログ](https://grand410.blogspot.com/2022/11/blog-post.html)
