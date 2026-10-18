@@ -266,9 +266,5 @@ Useful Links
   * [Online Historical Encyclopaedia of Programming Languages](http://hopl.info/)
   * [SYMPOSIUM ON PHILOSOPHY OF COMPUTING](https://philcomp.org/)
 
-Others
-======  
-      {% for post in site.jptexts %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
+
   
