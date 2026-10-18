@@ -44,5 +44,4 @@ Miscellaneous
   * Not only children, but people in general, and scientists in particular, quickly forget what it was like not to know what they now know. That is, once you've solved a problem, especially when the solution involved a new approach, it's difficult to think about the problem in the old way. What was once unknown has become obvious. What once tested the ingenuity of the skilled practitioner is now "an exercise left to the student". (Michael S. Mahoney, “What Makes History?”, 1996)
   * All the time you're saying to yourself, "I could do that, but I won't" -- which is just another way of saying that you can't. (Richard Feynman, *Surely You're Joking, Mr. Feynman!*, 1985, p.33)
   * 自分は，そんな世界の意味を云々するほどたいした生きものでないことを，渠は，卑下感をもってでなく，安らかな満足感をもって感じるようになった．そして，そんな生意気をいう前に，とにかく，自分でもまだ知らないでいるに違いない自己を試み展開してみようという勇気が出てきた．躊躇する前に試みよう．結果の成否は考えずに，ただ，試みるために全力を挙げて試みよう．決定的な失敗に帰したっていいのだ．（中島敦，『悟浄出世』）
-* [昔の日本語ブログ](https://grand410.blogspot.com/2022/11/blog-post.html)
 * 日本語でのご連絡も歓迎です！
